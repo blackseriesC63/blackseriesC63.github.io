@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+   <div id="container">
+       <header id="header"> <!--start of header-->
+           <h1 class="logo">Ticket</h1> <!--to give a style to logo, I made a class--> 
+           <nav id="navbar">
+               <div class="topnav">
+                   <a href="#">Home</a>
+                   <a href="Concert.html">Concerts</a>
+                   <a href="Movies.html">Movies</a>
+                   <a href="Theatre.html">Theater</a>
+                   <a href="Festival.html">Festivals</a>
+                   <a href="Contacts.html">Contacts</a>
+               </div>
+           </nav>
+       </header>
+       
+        <div id="banner"> <!-- to create appropriate slideshow, i made Id, so I could switch slides using JavaScript-->
+          	<div class="w3-content w3-display-container">
+			  <img class="mySlides" src="Image/concert/concert.jpg" style="width:100%">
+			  <img class="mySlides" src="Image/theatre/theatre.jpg" style="width:100%">
+			  <img class="mySlides" src="Image/movies/movies.jpg" style="width:100%">
+			  <img class="mySlides" src="Image/festival/festival.jpg" style="width:100%">
+
+  			  <button class="prev" onclick="plusDivs(-1)">&#10094;</button> <!-- switch slides to previous slide-->
+ 			  <button class="next" onclick="plusDivs(1)">&#10095;</button> <!--switch slides to next slide-->
+			</div>
+
+		 </div>
+
+
+		 <div class="first-row">
+		 	<a href="Concert.html"><img src="Image/concert/concert 2.jpg" width="600px" height="450px"></a>
+		 	<a href="Theatre.html"><img src="Image/theatre/theatre 2.jpg" width="600px" height="450px"></a>
+
+		 </div>
+           
+        <div class="second-row">
+            <a href="Movies.html"><img src="Image/movies/movies 2.jpg" width="600px" height="450px"></a>
+            <a href="Festival.html"><img src="Image/festival/festival 2.jpg" width="600px" height="450px"></a>
+        </div>
+        
+        <footer>
+        	<h1>Majidiy Solutions LLC<span>&#169</span></h1> <!-- in the footer, there is a student ID-->
+			<h2>00006675</h2>
+        </footer>
+            
+   </div>
+    
+  
+<script src="script.js"></script>    
+</body>
+</html>
